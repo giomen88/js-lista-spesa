@@ -6,7 +6,7 @@ listContainer = document.getElementById('list-container');
 
 ///////////////////////////// CREO IL WHILE
 
-// DO UN VALORE ALLA I
+// DEFINISCO VARIABILE INDICE
 i = 0
 
 // CREO VARIABILE ELEMENTI LISTA
