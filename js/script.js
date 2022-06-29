@@ -10,18 +10,18 @@ listContainer = document.getElementById('list-container');
 i = 0
 
 // CREO VARIABILE ELEMENTI LISTA
-// let listItems = `<ul>`
+let listItems = `<ul>`
 
 // WHILE
-// while (i < shoppingList.length) {
-//     listItems += `<li>${shoppingList[i]}</li>`;
-//     i++;
-// }
+while (i < shoppingList.length) {
+    listItems += `<li>${shoppingList[i]}</li>`;
+    i++;
+}
 
-// listItems += `</ul>`
+listItems += `</ul>`
 
 // INSERISCO LISTA NEL DOM
-// listContainer.innerHTML = listItems
+listContainer.innerHTML = listItems
 
 
 /////////////////////////////////////////////////////////// WHILE E INSERIMENTO NEL DOM CON LE API
